@@ -1,0 +1,24 @@
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap:20px;
+    
+}
+
+.large-item1{
+    background-color: blue;
+    ;
+}
+
+.large-item2{
+    background-color:red;
+    
+}
+
+img{
+   width: 20%; 
+   
+}
