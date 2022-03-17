@@ -13,10 +13,8 @@ font-family: 'Open Sans', sans-serif;
 header{
  height: 15vh;
  background-color: #f2dfd3;
+ display:fixed;
  padding: 10px;
-overflow: riden;
- position: fixed;
- width: 100%;
 }
 .container-header{
     display: flex;
@@ -49,7 +47,7 @@ flex-direction: row;
 align-items: center;
 }
 .button-header button{
-    margin:30px
+    margin:10px
 }
 .button-header a{
     color: #926844;
@@ -57,7 +55,7 @@ align-items: center;
 }
 .button-header a:hover{
 color: #341208;
-transition: 1s;
+transition: 2s;
 }
 #button-red{
     height: 44px;
@@ -66,8 +64,7 @@ transition: 1s;
     border:none;
     background-color: #926844;
     cursor: pointer;
-    font-size: 16px;
-    color: #f2dfd3;
+    font-size: 16px
 }
 #button-red:hover{
     background-color: #72441d;

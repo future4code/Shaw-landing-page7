@@ -13,10 +13,8 @@ font-family: 'Open Sans', sans-serif;
 header{
  height: 15vh;
  background-color: #f2dfd3;
+ display:fixed;
  padding: 10px;
-overflow: riden;
- position: fixed;
- width: 100%;
 }
 .container-header{
     display: flex;
@@ -66,8 +64,7 @@ transition: 1s;
     border:none;
     background-color: #926844;
     cursor: pointer;
-    font-size: 16px;
-    color: #f2dfd3;
+    font-size: 16px
 }
 #button-red:hover{
     background-color: #72441d;
@@ -75,4 +72,6 @@ transition: 1s;
     transition: 2s;
 }
 
-
+main{
+    height: 5000px;
+}

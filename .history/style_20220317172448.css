@@ -11,10 +11,10 @@ font-family: 'Open Sans', sans-serif;
 /*Estilizaçao Header
 ---------------------*/
 header{
- height: 15vh;
+ height: 1vh;
  background-color: #f2dfd3;
  padding: 10px;
-overflow: riden;
+ overflow: riden;
  position: fixed;
  width: 100%;
 }

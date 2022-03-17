@@ -14,9 +14,9 @@ header{
  height: 15vh;
  background-color: #f2dfd3;
  padding: 10px;
-overflow: riden;
+ overflow: riden;
  position: fixed;
- width: 100%;
+ 
 }
 .container-header{
     display: flex;

@@ -13,10 +13,9 @@ font-family: 'Open Sans', sans-serif;
 header{
  height: 15vh;
  background-color: #f2dfd3;
+ display:fixed;
  padding: 10px;
-overflow: riden;
- position: fixed;
- width: 100%;
+ overflow: riden;
 }
 .container-header{
     display: flex;
@@ -75,4 +74,6 @@ transition: 1s;
     transition: 2s;
 }
 
-
+main{
+    height: 5000px;
+}
