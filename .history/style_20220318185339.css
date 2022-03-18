@@ -62,9 +62,6 @@ nav a{
 nav a:hover{
     color: #341208;
 }
-nav a:active{
-  color:white;
-}
 .button-header{
 display: flex;
 flex-direction: row;
@@ -79,10 +76,7 @@ align-items: center;
 }
 .button-header a:hover{
 color: #341208;
-transition: 0.3s;
-}
-.button-header a:active{
-  color: white;
+transition: 1s;
 }
 #button-marrom{
     height: 44px;
@@ -96,18 +90,14 @@ transition: 0.3s;
     font-family: 'Open Sans', sans-serif;
 }
 #button-marrom:hover{
-    background-color: #341208;
+    background-color: #72441d;
     color: #f2dfd3;
-    transition: 0.3s;
-}
-#button-marrom:active{
-  background-color: #f2dfd3;
-  color:#341208;
+    transition: 2s;
 }
 /* Main-----------
 section-de-busca-*/
 main{
-height: auto;
+
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -135,7 +125,6 @@ width: 600px;
 height: 45px;
 border: none;
 border-radius: 6px;
-font-family: 'Open Sans', sans-serif;
 
 }
 #button-buscar{
@@ -151,13 +140,9 @@ font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 #button-buscar:hover{
-  background-color: #341208;
+  background-color: #72441d;
   color: #f2dfd3;
-  transition: 0.3s;
-}
-#button-buscar:active{
-  background-color: rgb(243, 240, 240);
-  color:#341208;
+  transition: 2s;
 }
 
 /* REFAZENDO TODO O CSS ABAIXO! */
@@ -417,7 +402,7 @@ html, body {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .saiba-mais .cadastro-entregas{
  display: flex;
@@ -435,7 +420,6 @@ html, body {
 }
 .cadastro-entregas h2{
   width: 200px;
-  color: #926844;
 }
 .cadastro-entregas p{
   opacity: 0.7;
@@ -460,14 +444,6 @@ html, body {
   background-color: #926844;
   color: white;
 }
-.cadastro-entregas button:hover{
-  background-color: #341208;
-  transition:0.3s
-}
-.cadastro-entregas button:active{
-  background-color:  rgb(243, 240, 240);
-  color: #341208;
-}
 /*----------------*/
 .cadastro-restaurante article{
   display: flex;
@@ -483,7 +459,6 @@ html, body {
 }
 .cadastro-restaurante h2{
   width: 150px;
-  color: #926844;
 }
 .cadastro-restaurante p{
   opacity: 0.7;
@@ -508,14 +483,6 @@ html, body {
   font-size: 16px;
   background-color: #926844;
   color: white;
-}
-.cadastro-restaurante button:hover{
-  background-color: #341208;
-  transition:0.3s
-}
-.cadastro-restaurante button:active{
-  background-color:  rgb(243, 240, 240);
-  color: #341208;
 }
 
 

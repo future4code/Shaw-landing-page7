@@ -62,9 +62,6 @@ nav a{
 nav a:hover{
     color: #341208;
 }
-nav a:active{
-  color:white;
-}
 .button-header{
 display: flex;
 flex-direction: row;
@@ -79,10 +76,7 @@ align-items: center;
 }
 .button-header a:hover{
 color: #341208;
-transition: 0.3s;
-}
-.button-header a:active{
-  color: white;
+transition: 1s;
 }
 #button-marrom{
     height: 44px;
@@ -98,11 +92,7 @@ transition: 0.3s;
 #button-marrom:hover{
     background-color: #341208;
     color: #f2dfd3;
-    transition: 0.3s;
-}
-#button-marrom:active{
-  background-color: #f2dfd3;
-  color:#341208;
+    transition: 2s;
 }
 /* Main-----------
 section-de-busca-*/
@@ -135,7 +125,6 @@ width: 600px;
 height: 45px;
 border: none;
 border-radius: 6px;
-font-family: 'Open Sans', sans-serif;
 
 }
 #button-buscar{
@@ -153,11 +142,7 @@ font-family: 'Open Sans', sans-serif;
 #button-buscar:hover{
   background-color: #341208;
   color: #f2dfd3;
-  transition: 0.3s;
-}
-#button-buscar:active{
-  background-color: rgb(243, 240, 240);
-  color:#341208;
+  transition: 2s;
 }
 
 /* REFAZENDO TODO O CSS ABAIXO! */
@@ -465,7 +450,7 @@ html, body {
   transition:0.3s
 }
 .cadastro-entregas button:active{
-  background-color:  rgb(243, 240, 240);
+  background-color: white;
   color: #341208;
 }
 /*----------------*/
@@ -514,7 +499,7 @@ html, body {
   transition:0.3s
 }
 .cadastro-restaurante button:active{
-  background-color:  rgb(243, 240, 240);
+  background-color: white;
   color: #341208;
 }
 
