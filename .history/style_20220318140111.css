@@ -67,7 +67,6 @@ transition: 1s;
     cursor: pointer;
     font-size: 16px;
     color: #f2dfd3;
-    font-family: 'Open Sans', sans-serif;
 }
 #button-marrom:hover{
     background-color: #72441d;
@@ -117,7 +116,6 @@ border-radius: 6px;
     font-size: 16px;
     color: #f2dfd3;
     margin-left: 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 #button-buscar:hover{
   background-color: #72441d;
@@ -206,11 +204,6 @@ img{
    width: 20%; 
    
 }
-
-
-
-
-
 
 /*estilos do footer*/
 

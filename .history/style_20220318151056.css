@@ -206,6 +206,79 @@ img{
    width: 20%; 
    
 }
+/*Section saiba-mais
+--------------------*/
+.saiba-mais{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+}
+.saiba-mais .cadastro-entregas{
+ display: flex;
+ flex-direction: column;
+}
+.cadastro-entregas article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro-entregas aside{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.cadastro-entregas h2{
+  width: 200px;
+}
+.cadastro-entregas p{
+  opacity: 0.7;
+  width:270px
+}
+.cadastro-entregas button{
+  width: 138px;
+  height: 44px;
+  position: relative;
+  top:50px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #926844;
+  color: white;
+}
+/*----------------*/
+.cadastro-restaurante article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro-restaurante aside{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  
+}
+.cadastro-restaurante h2{
+  width: 150px;
+}
+.cadastro-restaurante p{
+  opacity: 0.7;
+  width:270px
+}
+.cadastro-restaurante button{
+  width: 138px;
+  height: 44px;
+  position: relative;
+  top:50px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #926844;
+  color: white;
+}
+
 
 
 
