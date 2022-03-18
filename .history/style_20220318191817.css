@@ -135,7 +135,6 @@ width: 600px;
 height: 45px;
 border: none;
 border-radius: 6px;
-font-family: 'Open Sans', sans-serif;
 
 }
 #button-buscar{
@@ -153,10 +152,10 @@ font-family: 'Open Sans', sans-serif;
 #button-buscar:hover{
   background-color: #341208;
   color: #f2dfd3;
-  transition: 0.3s;
+  transition: 2s;
 }
 #button-buscar:active{
-  background-color: rgb(243, 240, 240);
+  background-color: #f2dfd3;
   color:#341208;
 }
 
@@ -465,7 +464,7 @@ html, body {
   transition:0.3s
 }
 .cadastro-entregas button:active{
-  background-color:  rgb(243, 240, 240);
+  background-color: white;
   color: #341208;
 }
 /*----------------*/
@@ -514,7 +513,7 @@ html, body {
   transition:0.3s
 }
 .cadastro-restaurante button:active{
-  background-color:  rgb(243, 240, 240);
+  background-color: white;
   color: #341208;
 }
 
