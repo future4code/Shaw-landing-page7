@@ -6,33 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <img src="" alt="">
+        <div class="container-header">
+            <nav>
+                <img src="./4food-logo.png" alt="logo 4food">
 
-        <div class="button-header">
-            <button></button>
-            <button id="button-red"></button>
-        </div>
-    
-        <nav>
-            <ul>
-                <li>Entregador</li>
-                <li>Restaurantes</li>
-                <li>Carreiras</li>
-                <li>4Food</li>
-            </ul>
-        </nav>
-    </header>
-<main>
-<section>
-    <h1>
+                <a href="">Entregador</a>
+                <a href=""> Restaurantes</a>
+                <a href="">Carreiras</a>
+                <a href="">4food</a>
 
-    </h1>
-    <p>
 
     </p>
     <div>
@@ -65,6 +55,100 @@
 
 </section>
 
+            </nav>
+
+            <div class="button-header">
+                <a>criar conta</a>
+                <button id="button-marrom">Entrar</button>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        <section class="campo-busca">
+            <h1>
+                Tudo pra facilitar seu dia a dia
+            </h1>
+            <p>
+                O que vc precisa está aqui ! Peça e receba onde estiver.
+            </p>
+
+            <div>
+                <input class="input-busca" type="text" placeholder="Endereço de entrega e numero">
+                <button id="button-buscar">Buscar</button>
+            </div>
+        </section>
+
+        <section class="grid">
+
+
+        </section>
+
+        <section class="carousel">
+
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript">
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel">
+                    </div>
+                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+        <section class="saiba-mais">
+            <div class="cadastro-entregas">
+                <article>
+                    <h2>Quer fazer entregas para o 4FOOD ?</h2>
+                    <p>Faça agora seu cadastro clicando em saiba mais</p>
+                </article>
+                <aside>
+                    <img src="imagens/entregador.4food.png" alt="">
+                    <button>Saiba mais</button>
+                </aside>
+            </div>
+
+            <div class="cadastro-restaurante">
+                <article>
+                    <h2>Seja um de nossos parceiros</h2>
+                    <p>Cadastre-se e venha trabalhar conosco</p>
+                </article>
+                <aside>
+                    <img src="imagens/loja.4food.png" alt="Desenho loja afiliado">
+                    <button>Saiba mais</button>
+                </aside>
+            </div>
+
+
+
+        </section>
+
 
     </main>
 
@@ -84,11 +168,12 @@
                 <li></li>
             </ul>
         </div>
+
         <div class="social">
-<a href=""><img src="" alt=""></a>
-<a href=""><img src="" alt=""></a>
-<a href=""><img src="" alt=""></a>
-<a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
         </div>
 
     </footer>

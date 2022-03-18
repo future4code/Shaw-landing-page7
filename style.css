@@ -1,3 +1,4 @@
+
 .container-box{
   border: 1px solid;
   border-radius:20px;
@@ -12,6 +13,142 @@
   justify-content:space-evenly;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka:wght@300&family=Raleway:wght@100;400&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+html, body {
+  margin: 0 auto;
+  font-family: 'Montaga', serif;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+/*Estilizaçao Header
+---------------------*/
+header{
+ height: 15vh;
+ background-color: #f2dfd3;
+ padding: 10px;
+ width: 100%;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 100%;
+  
+}
+.container-header nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header img{
+    width: 180px;
+    position:relative;
+    right: 15px;
+}
+nav a{
+    margin: 10px;
+    color: #926844;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #341208;
+}
+.button-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.button-header button{
+    margin:30px
+}
+.button-header a{
+    color: #926844;
+    cursor: pointer;
+}
+.button-header a:hover{
+color: #341208;
+transition: 1s;
+}
+#button-marrom{
+    height: 44px;
+    width:100px;
+    border-radius: 6px;
+    border:none;
+    background-color: #926844;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f2dfd3;
+    font-family: 'Open Sans', sans-serif;
+}
+#button-marrom:hover{
+    background-color: #72441d;
+    color: #f2dfd3;
+    transition: 2s;
+}
+/* Main-----------
+section-de-busca-*/
+main{
+height: 70vh;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+background-color: rgb(243, 240, 240);
+}
+.campo-busca{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+
+}
+.campo-busca h1{
+font-size: 36px;
+color: #926844;
+}
+.campo-busca p{
+opacity: 0.7;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.input-busca{
+width: 600px;
+height: 45px;
+border: none;
+border-radius: 6px;
+
+}
+#button-buscar{
+  height: 44px;
+    width:100px;
+    border-radius: 6px;
+    border:none;
+    background-color: #926844;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f2dfd3;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+#button-buscar:hover{
+  background-color: #72441d;
+  color: #f2dfd3;
+  transition: 2s;
+}
+/*-------------
+--------------*/
 
 .flex-container {
     display: flex;
@@ -114,9 +251,298 @@ column-gap: 100px;
     margin-top: 10px;
 }
 
+
 #img-hortifruti{
   width: 180px;
   height:70px;
   margin-top: 10px;
   margin-right: 5 px;
+
+img{
+   width: 20%; 
+   
+}/* estilos do corousel*/
+
+
+.carousel {
+  position: relative;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+  margin-top: 26px;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-control {
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 2%;
+}
+
+.carousel-control.next {
+  right: 2%;
+}
+
+.carousel-control:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.carousel-bullet {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+}
+
+.carousel-bullet:hover {
+  color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+  color: #428bca;
+}
+
+#title {
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+/*Section saiba-mais
+--------------------*/
+.saiba-mais{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 0px;
+}
+.saiba-mais .cadastro-entregas{
+ display: flex;
+ flex-direction: column;
+}
+.cadastro-entregas article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro-entregas aside{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.cadastro-entregas h2{
+  width: 200px;
+}
+.cadastro-entregas p{
+  opacity: 0.7;
+  width:270px
+}
+.cadastro-entregas aside img{
+  margin-left: 30px;
+  width:125px;
+  position:relative;
+  
+  right: 50px;
+}
+.cadastro-entregas button{
+  width: 138px;
+  height: 44px;
+  position: relative;
+  top:50px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #926844;
+  color: white;
+}
+/*----------------*/
+.cadastro-restaurante article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro-restaurante aside{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+.cadastro-restaurante h2{
+  width: 150px;
+}
+.cadastro-restaurante p{
+  opacity: 0.7;
+  width:270px
+}
+.cadastro-restaurante aside img{
+  margin-left: 30px;
+  width:180px;
+  position:relative;
+  bottom: 30px;
+  right: 50px;
+  
+}
+.cadastro-restaurante button{
+  width: 138px;
+  height: 44px;
+  position: relative;
+  top:50px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #926844;
+  color: white;
+}
+
+
+
+
+
+/*estilos do footer*/
+
+footer{
+  position: relative;
+  bottom: 0;
+  display: flex;
+  margin-top: 20px;
+  border-top: 2px solid #d3a27f;
+  border-bottom: 2px solid #d3a27f;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: 'Raleway', sans-serif;
+
+}
+footer h3{
+  text-align: center;
+  padding: 15px;
+}
+.pai ul{
+  text-align: center;
+
+}
+.food {
+  width: 100vh;
+  height:150px;
+  color: #5b4b41;
+}
+.food  li {
+
+  margin: 10px;
+  text-align: center;
+}
+.food a{
+  text-decoration: none;
+  color:#754c2d;
+}
+.descubra{
+  width: 100vh;
+  height:200;
+  align-items: center;
+  text-align: center;
+  color: #5b4b41;
+}
+.descubra a{
+  text-decoration: none;
+  color:#754c2d;
+}
+.descubra li {
+
+  margin: 10px;
+}
+.social{
+  width: 100vh;
+  height:150px;
+  color: #5b4b41;
+
+ 
+}
+
+.social ul{
+  display: flex;
+  justify-content: center;
+}
+.social img{   
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+
+}
+.social img:hover{
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: 300ms;
 }
