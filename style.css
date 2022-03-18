@@ -1,3 +1,18 @@
+
+.container-box{
+  border: 1px solid;
+  border-radius:20px;
+  border-color:brown;
+  background-color:#b87333;
+  margin: 100px 100px 100px ;
+  
+}
+
+.titulos-flex-container{
+  display: flex;
+  justify-content:space-evenly;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka:wght@300&family=Raleway:wght@100;400&display=swap');
 *{
     margin:0;
@@ -135,7 +150,6 @@ border-radius: 6px;
 /*-------------
 --------------*/
 
-
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -144,71 +158,105 @@ border-radius: 6px;
     align-items: normal;
     align-content: normal;
     text-align: center;
-    column-gap:5px;  /* Tornar o gap entre a div azul e a vermelha responsiva.  */
-   
+    column-gap:100px;  /* Tornar o gap entre a div azul e a vermelha responsiva.  */
+
   }
-  
+
   .flex-items1 {
     display: block;
     flex-grow: 0.5;
-    background-color: blue;
-    width: 836px;
+    background-color: #755553;
+    width: 50px;
     height:180px;
-    text-align: ;
+    position: relative;
+    left:50px;
+    justify-content: space-around;
+    border: 1px transparent;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    
   }
   
 
   .flex-items2{
     display: block;
     flex-grow: 0.5;
-    background-color: red;
-    
-    width: 836px;
+    /* Não sei como por uma borda aqui que não vá bater na borda do flex-item1 ex:linha debaixo
+      border: 1px transparent;*/
+    position: relative;
+    right:100px;
+    width: 50px;
     height:180px;
+    justify-content: space-around;
+    border: 1px transparent;
+    border-radius: 50px;
+    margin-bottom: 10px;
   }
-
   .small-items{
-    background-color: purple;
     display: flex;
-    border: solid;
     justify-content: space-evenly;
-    
+}
+.titulos-small-items{
+display: flex;
+justify-content:space-evenly;
+column-gap: 100px;
 }
   
+  
 #small-items3{
-    background-color: green;
     display: flex;
-    border: solid;
+    border:1px solid;
     justify-content: space-evenly;
     width: 200px;
     height: 80px;
+    border-radius: 10px;
+    background-color:#742322;
 }
 #small-items4{
-    background-color: green;
     display: flex;
-    border: solid;
+    border:1px solid;
     justify-content: space-evenly;
     width: 200px;
     height: 80px;
+    border-radius: 10px;
+    background-color:#742322;
 }
 #small-items5{
-    background-color: green;
     display: flex;
-    border: solid;
+    border:1px solid;
     justify-content: space-evenly;
     width: 200px;
     height: 80px;
+    border-radius: 10px;
+    background-color:#742322;
 }
-#small-items6{
-    background-color: green;
-    display: flex;
-    border: solid;
-    justify-content: space-evenly;
-    width: 200px;
-    height: 80px;
+
+#carrinho{
+  width:200px;
+  height: 200px;
+}
+
+#pratos-prontos{
+  width:200px;
+  height:200px;
+}
+#img-bebidas{
+  width: 200px;
+  height:80px;
+}
+
+#img-carnes{
+  width: 190px;
+    height: 70px;
+    margin-top: 10px;
 }
 
 
+#img-hortifruti{
+  width: 180px;
+  height:70px;
+  margin-top: 10px;
+  margin-right: 5 px;
 
 img{
    width: 20%; 
@@ -490,6 +538,7 @@ footer h3{
   width: 20px;
   margin-right: 20px;
   margin-top: 10px;
+
 }
 .social img:hover{
   width: 30px;
