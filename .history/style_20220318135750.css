@@ -117,11 +117,6 @@ border-radius: 6px;
     color: #f2dfd3;
     margin-left: 20px;
 }
-#button-buscar:hover{
-  background-color: #72441d;
-  color: #f2dfd3;
-  transition: 2s;
-}
 /*-------------
 --------------*/
 
