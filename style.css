@@ -503,9 +503,14 @@ footer{
   font-family: 'Raleway', sans-serif;
 
 }
-footer h3{
+.pai h3{
   text-align: center;
   padding: 15px;
+}
+.foot{
+
+  display: flex;
+  flex-direction: row;
 }
 .pai ul{
   text-align: center;
