@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka:wght@300&family=Raleway:wght@100;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,9 +7,6 @@
 }
 
 
-body{
-    width: 100%;
-}
 
 
 
@@ -16,19 +14,18 @@ body{
 
 /*estilos do footer*/
 
-.pai{
- /*  display: grid;
-   flex-direction: row;
-   grid-template-rows: 1fr;
-  grid-template-columns: 3fr ;  */
-  display: flex;
-  border-top: 2px solid #d3a27f;
-  border-bottom: 2px solid #d3a27f;
-  margin-right: 10%;
-  margin-left: 10%;
+footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    border-top: 2px solid #d3a27f;
+    border-bottom: 2px solid #d3a27f;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
   
 }
-.pai h3{
+footer h3{
     text-align: center;
     padding: 15px;
 }
@@ -78,4 +75,11 @@ body{
 .social img{   
     width: 20px;
     margin-right: 20px;
+    margin-top: 10px;
+}
+.social img:hover{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 300ms;
 }
