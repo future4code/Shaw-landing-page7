@@ -1,0 +1,275 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+margin: 0 auto;
+font-family: 'Montaga', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilizaçao Header
+---------------------*/
+header{
+ height: 15vh;
+ background-color: #f2dfd3;
+ padding: 10px;
+ width: 100%;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 100%;
+  
+}
+.container-header nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header img{
+    width: 180px;
+    position:relative;
+    right: 15px;
+}
+nav a{
+    margin: 10px;
+    color: #926844;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #341208;
+}
+.button-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.button-header button{
+    margin:30px
+}
+.button-header a{
+    color: #926844;
+    cursor: pointer;
+}
+.button-header a:hover{
+color: #341208;
+transition: 1s;
+}
+#button-marrom{
+    height: 44px;
+    width:100px;
+    border-radius: 6px;
+    border:none;
+    background-color: #926844;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f2dfd3;
+}
+#button-red:hover{
+    background-color: #72441d;
+    color: #f2dfd3;
+    transition: 2s;
+}
+/* Main-----------
+------------------*/
+main{
+height: 70vh;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+background-color: rgb(243, 240, 240);
+}
+.campo-busca{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+border: 1px solid black;
+}
+.campo-busca h1{
+font-size: 36px;
+color: #926844;
+}
+.campo-busca p{
+opacity: 0.7;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.input-busca{
+width: 600px;
+height: 45px;
+border: none;
+
+}
+
+/*-------------
+--------------*/
+#button-buscar{
+  height: 44px;
+    width:100px;
+    border-radius: 6px;
+    border:none;
+    background-color: #926844;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f2dfd3;
+    margin-left: 10px;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: normal;
+    align-content: normal;
+    text-align: center;
+    column-gap:5px;  /* Tornar o gap entre a div azul e a vermelha responsiva.  */
+   
+  }
+  
+  .flex-items1 {
+    display: block;
+    flex-grow: 0.5;
+    background-color: blue;
+    width: 836px;
+    height:180px;
+    text-align: ;
+  }
+  
+
+  .flex-items2{
+    display: block;
+    flex-grow: 0.5;
+    background-color: red;
+    
+    width: 836px;
+    height:180px;
+  }
+
+  .small-items{
+    background-color: purple;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    
+}
+  
+#small-items3{
+    background-color: green;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 80px;
+}
+#small-items4{
+    background-color: green;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 80px;
+}
+#small-items5{
+    background-color: green;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 80px;
+}
+#small-items6{
+    background-color: green;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 80px;
+}
+
+
+
+img{
+   width: 20%; 
+   
+}
+
+/*estilos do footer*/
+
+footer{
+  position: relative;
+  bottom: 0;
+  display: flex;
+  border-top: 2px solid #d3a27f;
+  border-bottom: 2px solid #d3a27f;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: 'Raleway', sans-serif;
+
+}
+footer h3{
+  text-align: center;
+  padding: 15px;
+}
+.pai ul{
+  text-align: center;
+
+}
+.food {
+  width: 100vh;
+  height:150px;
+  color: #5b4b41;
+}
+.food  li {
+
+  margin: 10px;
+}
+.food a{
+  text-decoration: none;
+  color:#754c2d;
+}
+.descubra{
+  width: 100vh;
+  height:200;
+  align-items: center;
+  color: #5b4b41;
+}
+.descubra a{
+  text-decoration: none;
+  color:#754c2d;
+}
+.descubra li {
+
+  margin: 10px;
+}
+.social{
+  width: 100vh;
+  height:150px;
+  color: #5b4b41;
+
+ 
+}
+
+.social ul{
+  display: flex;
+  justify-content: center;
+}
+.social img{   
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.social img:hover{
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: 300ms;
+}

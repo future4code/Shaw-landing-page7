@@ -1,12 +1,12 @@
 
-/* .container-box{
+.container-box{
   border: 1px solid;
   border-radius:20px;
   border-color:brown;
   background-color:#b87333;
   margin: 100px 100px 100px ;
   
-} */
+}
 
 .titulos-flex-container{
   display: flex;
@@ -21,11 +21,14 @@
     list-style: none;
 }
 
-body {
+
+html, body {
   margin: 0 auto;
   font-family: 'Montaga', serif;
   font-family: 'Open Sans', sans-serif;
- 
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 
@@ -144,21 +147,10 @@ border-radius: 6px;
   color: #f2dfd3;
   transition: 2s;
 }
-
-/* REFAZENDO TODO O CSS ABAIXO! */
-
-
-
-
-
-
-
-
-
 /*-------------
 --------------*/
 
-/* .flex-container {
+.flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -168,24 +160,21 @@ border-radius: 6px;
     text-align: center;
     column-gap:100px;  /* Tornar o gap entre a div azul e a vermelha responsiva.  */
 
-  /* } */
-/* 
+  }
+
   .flex-items1 {
     display: block;
     flex-grow: 0.5;
     background-color: #755553;
     width: 50px;
     height:180px;
-
-    text-align:center; 
-
     position: relative;
     left:50px;
     justify-content: space-around;
     border: 1px transparent;
     border-radius: 50px;
     margin-bottom: 10px;
-
+    
   }
   
 
@@ -194,7 +183,7 @@ border-radius: 6px;
     flex-grow: 0.5;
     /* Não sei como por uma borda aqui que não vá bater na borda do flex-item1 ex:linha debaixo
       border: 1px transparent;*/
-    /* position: relative;
+    position: relative;
     right:100px;
     width: 50px;
     height:180px;
@@ -268,25 +257,15 @@ column-gap: 100px;
   height:70px;
   margin-top: 10px;
   margin-right: 5 px;
-}
-
-
 
 /* estilos do corousel*/
 
 
-/* estilos do corousel*/
-html, body {
-  margin: 0px;
-  padding: 0px;
-  background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
-}
-
-/* .carousel {
+.carousel {
   position: relative;
   box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
   margin-top: 26px;
-} */
+}
 
 .carousel-inner {
   position: relative;
