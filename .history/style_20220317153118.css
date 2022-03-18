@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+margin: 0 auto;
+
+}
+header{
+ height: 15vh;
+ background-color: #f2dfd3;
+ display:fixed;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.container-header nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header img{
+    width: 180px;
+}
+header a{
+    margin: 15px;
+
+}
+.button-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+

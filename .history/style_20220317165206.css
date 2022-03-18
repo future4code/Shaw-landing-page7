@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+margin: 0 auto;
+font-family: 'Montaga', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilizaçao Header
+---------------------*/
+header{
+ height: 15vh;
+ background-color: #f2dfd3;
+ display:fixed;
+ padding: 10px;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 100%;
+  
+}
+.container-header nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header img{
+    width: 180px;
+    position:relative;
+    right: 15px;
+}
+nav a{
+    margin: 10px;
+    color: #926844;
+    text-decoration: none;
+
+}
+.button-header{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.button-header button{
+    margin:10px
+}
+.button-header a{
+    color: #926844;
+    cursor: pointer;
+}
+.button-header a:hover{
+color: #72441d;
+transition: 2s;
+}
+#button-red{
+    height: 44px;
+    width:100px;
+    border-radius: 6px;
+    border:none;
+    background-color: #926844;
+    cursor: pointer;
+    font-size: larger;
+}
+#button-red:hover{
+    background-color: #72441d;
+    color: #f2dfd3;
+    transition: 2s;
+}
+
+
