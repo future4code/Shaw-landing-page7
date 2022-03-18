@@ -5,6 +5,79 @@
     box-sizing: border-box;
     list-style: none;
 }
+
+
+/*estilos do footer*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    border-top: 2px solid #d3a27f;
+    border-bottom: 2px solid #d3a27f;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'Raleway', sans-serif;
+  
+}
+footer h3{
+    text-align: center;
+    padding: 15px;
+}
+.pai ul{
+    text-align: center;
+  
+}
+.food {
+    width: 100vh;
+    height:150px;
+    color: #5b4b41;
+}
+.food  li {
+  
+    margin: 10px;
+}
+.food a{
+    text-decoration: none;
+    color:#754c2d;
+}
+.descubra{
+    width: 100vh;
+    height:200;
+    align-items: center;
+    color: #5b4b41;
+}
+.descubra a{
+    text-decoration: none;
+    color:#754c2d;
+}
+.descubra li {
+  
+    margin: 10px;
+}
+.social{
+    width: 100vh;
+    height:150px;
+    color: #5b4b41;
+
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+}
+.social img{   
+    width: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.social img:hover{
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    transition: 300ms;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
