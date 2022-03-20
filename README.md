@@ -7,7 +7,7 @@ O nosso projeto consistiu em criar uma landing page de um site de compras como u
 
 
 Link do Surge:
-
+crazy-learning.surge.sh
 
 Prints:
 
