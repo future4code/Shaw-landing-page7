@@ -161,6 +161,86 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* REFAZENDO TODO O CSS ABAIXO! */
+.big-container{
+  border: #341208 1px transparent;
+  border-radius: 20px;
+  background-color: #974;
+  margin: 20px;
+}
+
+.titulo-pai-flex{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+}
+
+.pai-flex{
+display: flex;
+justify-content:space-evenly;
+margin: 10px;
+
+
+}
+.mae-flex{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+#carrinho{
+  width: 120px;
+  height: 100px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  margin-top:10px;
+}
+
+#pratos{
+  width: 130px;
+  height: 100px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  padding: 10px;
+  margin-top:10px;
+}
+#bebidas{
+  width: 100px;
+  height: 100px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+#carne{
+  width: 100px;
+  height: 80px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  padding: 10px;
+}
+#hortifruti{
+  width: 100px;
+  height: 80px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  padding: 10px;
+}
+#higiene{
+  width: 100px;
+  height: 80px;
+  border: #926844;
+  border-radius: 20px;
+  background-color: #754c2d;
+  padding: 5px;
+}
+
 
 
 
