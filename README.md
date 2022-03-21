@@ -21,8 +21,9 @@
 
 
  ### AUTORES:
-
+[An Internal Link to a Section Heading](/guides/content/editing-an-existing-page#modifying-front-matter)
 - [ Michael Douglas ] ( https://github.com/michaeldouglasf )
 - https://github.com/Pabloweb2022
 - https://github.com/Matheus0351996/Matheus0351996
+
 
