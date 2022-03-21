@@ -7,7 +7,7 @@
 
 
  #### Link do Surge
--  [Link do Surge](crazy-learning.surge.sh)
+-  [Link do Surge](http://crazy-learning.surge.sh)
 
 
 ### AUTORES
