@@ -7,7 +7,7 @@
 
 
  #### Link do Surge:
-- <crazy-learning.surge.sh>
+- < crazy-learning.surge.sh >
 
 - Prints:
 
@@ -22,7 +22,7 @@
 
  ### AUTORES:
 
-- Michael Douglas] (https://github.com/michaeldouglasf)
+- [ Michael Douglas ] ( https://github.com/michaeldouglasf )
 - https://github.com/Pabloweb2022
 - https://github.com/Matheus0351996/Matheus0351996
 
