@@ -1,6 +1,6 @@
 # landing-page-template
 
-## DESCRIÇÃO DO PROJETO
+## DESCRIÇÃO DO PROJETO7
 
 >> O nosso projeto consistiu em criar uma landing page de um site de compras como um supermercado, com o adicional da possibilidade de se pedir pratos prontos também, para que os clientes possam tanto ter a experiencia de realizar suas compras para cozinhar em casa, tanto quanto só pedir para consumação.
 
